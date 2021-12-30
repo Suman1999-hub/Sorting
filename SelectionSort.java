@@ -1,3 +1,16 @@
+//Selection Sort
+/*
+    Input:
+    arr[]={64,25,12,22,11}
+    Output:
+        11 12 22 25 64 
+    Explanation:
+        64 25 12 22 11
+      => 11 25 12 22 64
+      => 11 12 25 22 64
+      => 11 12 22 25 64
+*/
+
 import java.util.*;
 public class SelectionSort {
     public static void main(String[] args){
