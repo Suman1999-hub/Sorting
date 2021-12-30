@@ -1,7 +1,8 @@
 //Selection Sort
 /*
     Input:
-    arr[]={64,25,12,22,11}
+        5
+        arr[]={64,25,12,22,11}
     Output:
         11 12 22 25 64 
     Explanation:
