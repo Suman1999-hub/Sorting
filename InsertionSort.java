@@ -21,10 +21,10 @@ public class InsertionSort {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        for(int j=2;j<n;j++){
+        for(int j=1;j<n;j++){
             int key=arr[j];
             int i=j-1;
-            while(i>0 && arr[i]>key){
+            while(i>=0 && arr[i]>key){
                 arr[i+1]=arr[i];
                 i=i-1;
             }
